@@ -52,13 +52,11 @@ body {
   padding: 0 15px;
 }
 
-.container-navbar {
+.container {
   display: flex;
   align-items: center;
 }
 
-.first-section-container {
-}
 
 .hero-section {
   background: var(--dark-color);
