@@ -62,14 +62,15 @@ body {
 
 .hero-section {
   background: var(--dark-color);
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
   padding: 188px 0;
 }
 
 .hero-title {
+  max-width: 496px;
   color: var(--white-color);
   text-align: center;
   font-size: 56px;
@@ -79,21 +80,22 @@ body {
   margin-top: 188px;
   margin-bottom: 292px;
   align-items: center;
-  max-width: 496px;
 }
 
 .hero-button {
-  color: var(--white-color);
   display: block;
   min-width: 169px;
   height: 56px;
   border: none;
   background: var(--iris-color);
   border-radius: 4px;
-  /* cursor: pointer; */
-  /* padding: 16px 32px;
+  cursor: pointer;
+  color: var(--white-color);
+}
+
+/* padding: 16px 32px;
   align-items: flex-start;
-  gap: 10px; */
+  gap: 10px;
 
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
