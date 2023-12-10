@@ -266,13 +266,37 @@ margin-right: 0;
 
 .our-team-container {
   background: var(--cloud-color);
-  padding: 120px 156px;
+   padding: 120px 0;
   display: flex;
   justify-content: space-between;
 }
 
-.cards {
+.team-subtitle{
+  margin-bottom: 72px;
+}
+
+
+.team-list{
+  display: flex;
+  gap: 24px;
+}
+
+.card-list-item:last-child{
+  margin: 0;
+}
+
+.card-list-item:first-child{
+  width: calc((100% - 72px) / 4);
+}
+
+.card-list-item {
   background: var(--white-color);
+  margin-right: 24px;
+   border-radius: 0px 0px 4px 4px 4px;
+}
+
+.container-employee{
+  padding: 32px 0;
 }
 
 .item-name {
@@ -283,7 +307,8 @@ margin-right: 0;
   letter-spacing: 0.4px;
   padding-top: 32px;
   padding-bottom: 8px;
-  align-items: center;
+ text-align: center;
+  margin-bottom: 8px;
 }
 
 .item-description {
@@ -295,7 +320,8 @@ margin-right: 0;
   line-height: 150%;
   letter-spacing: 0.32px;
   padding-bottom: 32px;
-  align-items: center;
+  text-align: center;
+  
 }
 
 .footer {
