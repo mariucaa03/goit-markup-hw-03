@@ -47,14 +47,14 @@ body {
 
 .header-container {
   display: flex;
+}
+
+.container-navbar {
+  display: flex;
+  align-items: center;
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
-}
-
-.navbar {
-  display: flex;
-  align-items: center;
 }
 
 .hero-section {
@@ -131,6 +131,7 @@ body {
 
 .link-nav {
   color: var(--dark-color);
+  padding: 24px 0;
 }
 
 .link-nav:hover,
@@ -145,7 +146,6 @@ body {
 
 .nav-list-item {
   margin-right: 40px;
-  padding: 24px 0;
 }
 
 .nav-list-item:last-child {
@@ -162,12 +162,12 @@ body {
 .header-cta {
   padding-left: 120px;
   display: flex;
-  gap: 40px;
 }
 
 .header-address {
   display: flex;
   align-items: center;
+  gap: 40px;
 }
 
 .address-list {
