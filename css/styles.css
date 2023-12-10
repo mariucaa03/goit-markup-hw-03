@@ -193,9 +193,23 @@ body {
 }
 
 .qualities-container {
-  padding: 120px 156px;
+  padding: 120px 0;
   display: flex;
   justify-content: space-between;
+}
+
+.qualities-list{
+  display: flex;
+  gap: 24px;
+}
+
+.qualities-list-item{
+  flex-basis: calc((100% - 3 * 24px) / 4);
+  margin-right: 24px;
+}
+
+.qualities-list-item:last-child{
+margin-right: 0;
 }
 
 .qualities-subtitles {
@@ -204,8 +218,8 @@ body {
   font-weight: 500;
   line-height: 120%;
   letter-spacing: 0.4px;
-  padding-bottom: 8px;
-  gap: 24px;
+  margin-bottom: 8px;
+
 }
 
 .qualities-description {
