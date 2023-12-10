@@ -62,10 +62,10 @@ body {
 
 .hero-section {
   background: var(--dark-color);
-  /* display: flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center; */
+  align-items: center; 
   padding: 188px 0;
 }
 
@@ -331,4 +331,4 @@ body {
 
 .link-card {
   padding-bottom: 32px;
-} */
+}
