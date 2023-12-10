@@ -287,12 +287,13 @@ margin-right: 0;
 
 .card-list-item:first-child{
   width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px 4px;
 }
 
 .card-list-item {
   background: var(--white-color);
   margin-right: 24px;
-   border-radius: 0px 0px 4px 4px 4px;
+   /* border-radius: 0px 0px 4px 4px 4px; */
 }
 
 .container-employee{
@@ -321,7 +322,7 @@ margin-right: 0;
   letter-spacing: 0.32px;
   padding-bottom: 32px;
   text-align: center;
-  
+
 }
 
 .footer {
