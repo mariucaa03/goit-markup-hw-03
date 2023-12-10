@@ -93,12 +93,12 @@ body {
   color: var(--white-color);
 }
 
-/* padding: 16px 32px;
+ /* padding: 16px 32px;
   align-items: flex-start;
   gap: 10px;
 
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-}
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15); */
+
 .hero-button:hover,
 .hero-button:focus {
   background-color: var(--ocean-color);
