@@ -205,8 +205,12 @@ body {
 }
 
 .qualities-list-item{
-  flex-basis: calc((100% - 3 * 24px) / 4);
+ 
   margin-right: 24px;
+}
+
+.qualities-list-item:first-child{
+   flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .qualities-list-item:last-child{
