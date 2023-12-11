@@ -159,19 +159,19 @@ body {
   letter-spacing: 0.02em;
 }
 
-.header-address {
+.address-container {
   color: var(--brand-color);
 }
-.address-list {
+.header-address-list {
   display: flex;
   gap: 40px;
 }
 
-.address-list-item {
+.address-item {
   margin-right: 40px;
 }
 
-.address-list-item :last-child {
+.address-item :last-child {
   margin: 0;
 }
 
