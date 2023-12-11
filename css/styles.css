@@ -163,10 +163,6 @@ body {
   color: var(--brand-color);
 }
 
-address .address-list {
-  display: flex;
-  gap: 40px;
-}
 .address-list {
   display: flex;
   gap: 40px;
@@ -175,7 +171,7 @@ address .address-list {
   line-height: 150%;
   letter-spacing: 0.32px;
 }
-.address-list-item {
+.address-list-item-header {
   margin-right: 40px;
 }
 
