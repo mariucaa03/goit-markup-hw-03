@@ -194,8 +194,7 @@ body {
 
 .qualities-list-item {
   margin-right: 24px;
-    width: calc(100%-72px) / 4;
-}
+  width: calc(100%-72px) / 4;
 }
 
 /* .qualities-list-item:first-child {
