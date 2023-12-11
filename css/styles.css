@@ -179,7 +179,7 @@ address .address-list {
   margin-right: 40px;
 }
 
-.address-list-item :last-child {
+.address-list-item:last-child {
   margin: 0;
 }
 
