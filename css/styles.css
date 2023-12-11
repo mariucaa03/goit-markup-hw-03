@@ -161,6 +161,7 @@ body {
   gap: 40px;
 }
 
+
 .address-list {
   font-size: 16px;
   font-weight: 400;
@@ -188,8 +189,7 @@ body {
 
 .qualities-list-item {
   margin-right: 24px;
-  width: 100%;
-  min-width: 264;
+  width: calc(100%-72px) / 4;
 }
 
 .qualities-list-item:last-child {
