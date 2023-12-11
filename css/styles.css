@@ -161,10 +161,22 @@ body {
   display: flex;
 }
 
-.header-address {
+.address-container {
   display: flex;
   /* align-items: center; */
   gap: 40px;
+}
+.header-address-list {
+  display: flex;
+  gap: 40px;
+}
+
+.address-item {
+  margin-right: 40px;
+}
+
+.address-item:last-child {
+  margin: 0;
 }
 
 .address-list {
