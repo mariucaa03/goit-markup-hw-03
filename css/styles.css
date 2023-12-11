@@ -106,6 +106,7 @@ body {
 }
 
 .logo {
+  display: inline-block;
   font-family: var(--logo-font-family);
   font-size: 18px;
   font-weight: 800;
@@ -113,6 +114,8 @@ body {
   letter-spacing: 0.54px;
   text-transform: uppercase;
   margin-right: 76px;
+
+  margin-bottom: 16px;
 }
 .logo-web {
   color: var(--iris-color);
@@ -162,6 +165,8 @@ body {
 }
 .address-list-item {
   margin-right: 40px;
+  display: flex;
+  gap: 40px;
 }
 
 .address-list-item :last-child {
@@ -303,11 +308,6 @@ body {
 .footer {
   background: var(--dark-color);
   padding: 100px 0;
-}
-
-.footer-link {
-  display: inline-block;
-  margin-bottom: 16px;
 }
 
 .footer-mision {
