@@ -136,7 +136,7 @@ body {
   color: var(--ocean-color);
 }
 
-.list-nav {
+.nav-list {
   display: flex;
   gap: 40px;
 }
@@ -163,7 +163,7 @@ body {
 
 .header-address {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   gap: 40px;
 }
 
@@ -279,7 +279,7 @@ body {
   background: var(--white-color);
   margin-right: 24px;
   width: calc(100%-72px) / 4;
-  border-radius: 0px 0px 4px 4px 4px;
+  border-radius: 0px 0px 4px 4px;
 }
 
 .container-employee {
