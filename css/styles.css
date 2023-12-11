@@ -174,7 +174,7 @@ body {
 .address-list-item {
   display: flex;
   gap: 40px;
-  margin-right: 40px;
+  /* margin-right: 40px; */
 }
 
 .address-list-item :last-child {
