@@ -249,6 +249,9 @@ body {
 .team-list {
   display: flex;
   gap: 24px;
+  background: var(--white-color);
+  margin-right: 24px;
+  border-radius: 0px 0px 4px 4px;
 }
 
 .card-list-item:last-child {
@@ -256,9 +259,6 @@ body {
 }
 
 .card-list-item {
-  background: var(--white-color);
-  margin-right: 24px;
-  border-radius: 0px 0px 4px 4px;
   width: 100%;
   min-width: 264;
 }
