@@ -156,11 +156,6 @@ body {
   letter-spacing: 0.02em;
 }
 
-.header-address {
-  display: flex;
-  gap: 40px;
-}
-
 .address {
   display: flex;
   gap: 40px;
