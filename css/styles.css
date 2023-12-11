@@ -161,7 +161,6 @@ body {
   gap: 40px;
 }
 
-
 .address-list {
   font-size: 16px;
   font-weight: 400;
@@ -187,9 +186,10 @@ body {
   gap: 24px;
 }
 
-.qualities-list-item {
+.calc-sec2-list-item {
   margin-right: 24px;
-  width: calc(100%-72px) / 4;
+  width: 100%;
+  min-width: 264px;
 }
 
 .qualities-list-item:last-child {
@@ -233,11 +233,11 @@ body {
   display: flex;
   gap: 24px;
 }
-.services-list-item {
-  margin-right: 24px;
-  width: calc(100%-48px) / 3;
-}
 
+.calc-sec3-list-item {
+  width: 100%;
+  min-width: 264;
+}
 .services-list-item:last-child {
   margin: 0;
 }
@@ -265,10 +265,12 @@ body {
 .card-list-item {
   background: var(--white-color);
   margin-right: 24px;
-  width: calc(100%-72px) / 4;
   border-radius: 0px 0px 4px 4px;
 }
-
+.calc-sec4-list-item {
+  width: 100%;
+  min-width: 264;
+}
 .container-employee {
   padding: 32px 0;
 }
@@ -374,7 +376,9 @@ body {
   margin-bottom: 48px;
   width: calc(100%-24px) / 3;
 }
-
+.calc-portfolio-cards {
+  flex-basis: calc((100%-48px) / 3);
+}
 .portfolio-card:nth-child(n + 3) {
   margin: 0;
   margin-bottom: 0;
