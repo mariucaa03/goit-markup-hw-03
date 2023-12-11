@@ -90,12 +90,6 @@ body {
   color: var(--white-color);
 }
 
-/* padding: 16px 32px;
-  align-items: flex-start;
-  gap: 10px;
-
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15); */
-
 .hero-button:hover,
 .hero-button:focus {
   background-color: var(--ocean-color);
@@ -393,7 +387,7 @@ body {
 }
 
 .portfolio-card:first-child {
-  width: calc((100% - 48px) / 3);
+  width: calc(100%-48px) / 3;
 }
 
 .portfolio-card:nth-child(n + 3) {
