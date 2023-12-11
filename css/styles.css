@@ -175,8 +175,8 @@ body {
   margin: 0;
 }
 
-.address-list:hover,
-.address-list:focus {
+.address-list-link:hover,
+.address-list-link:focus {
   color: var(--ocean-color);
 }
 
@@ -318,6 +318,22 @@ body {
   letter-spacing: 0.32px;
   padding-top: 18px;
   max-width: 264px;
+}
+
+.logo {
+  display: inline-block;
+  font-family: var(--logo-font-family);
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 117%;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  margin-right: 76px;
+
+  margin-bottom: 16px;
+}
+.logo-web {
+  color: var(--iris-color);
 }
 
 .main-container {
