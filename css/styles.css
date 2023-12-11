@@ -134,10 +134,6 @@ body {
   color: var(--cloud-color);
 }
 
-.link {
-  text-decoration: none;
-}
-
 .link-nav {
   color: var(--dark-color);
   padding: 24px 0;
@@ -327,7 +323,12 @@ margin-right: 0;
 
 .footer {
   background: var(--dark-color);
-  padding: 100px 1020px 100px 200px;
+  padding: 100px 0;
+}
+
+.footer-link{
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-mision {
@@ -337,6 +338,7 @@ margin-right: 0;
   line-height: 150%;
   letter-spacing: 0.32px;
   padding-top: 18px;
+  max-width: 264px;
 }
 
 .main-container {
