@@ -156,7 +156,7 @@ body {
   letter-spacing: 0.02em;
 }
 
-.address {
+.address-list {
   display: flex;
   gap: 40px;
 }
