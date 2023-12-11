@@ -369,7 +369,8 @@ body {
 }
 
 .portfolio-card {
-  flex-basis: calc(100%-24px) / 3;
+  width: 100%;
+  min-width: 264;
 }
 .portfolio-card:nth-child(n + 3) {
   margin: 0;
