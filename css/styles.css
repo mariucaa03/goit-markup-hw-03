@@ -162,9 +162,9 @@ body {
 }
 
 .address-container {
-  display: flex;
+  /* display: flex; */
   /* align-items: center; */
-  gap: 40px;
+  /* gap: 40px; */
 }
 .header-address-list {
   display: flex;
