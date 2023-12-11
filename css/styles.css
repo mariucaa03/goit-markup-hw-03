@@ -159,22 +159,22 @@ body {
   letter-spacing: 0.02em;
 }
 
+.header-address {
+  color: var(--brand-color);
+}
 .address-list {
   display: flex;
   gap: 40px;
 }
+
 .address-list-item {
   margin-right: 40px;
-  display: flex;
-  gap: 40px;
 }
 
 .address-list-item :last-child {
   margin: 0;
 }
-.address-link {
-  color: var(--brand-color);
-}
+
 .address-list:hover,
 .address-list:focus {
   color: var(--ocean-color);
