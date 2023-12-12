@@ -307,6 +307,10 @@ body {
   padding-bottom: 32px;
   text-align: center;
 }
+.container-footer {
+  display: inline-block;
+  align-items: center;
+}
 
 .footer {
   background: var(--dark-color);
@@ -323,17 +327,11 @@ body {
   max-width: 264px;
 }
 
-.logo {
-  font-family: var(--logo-font-family);
-  font-size: 18px;
-  font-weight: 800;
-  line-height: 117%;
-  letter-spacing: 0.54px;
-  text-transform: uppercase;
-  margin-right: 76px;
+.footer-link {
   display: inline-block;
   margin-bottom: 16px;
 }
+
 .logo-web {
   color: var(--iris-color);
 }
