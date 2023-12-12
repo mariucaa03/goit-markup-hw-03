@@ -159,17 +159,17 @@ body {
   letter-spacing: 0.02em;
 }
 
-.header-address {
+.address {
   color: var(--brand-color);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.32px;
 }
 
 .address-list {
   display: flex;
   gap: 40px;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 150%;
-  letter-spacing: 0.32px;
 }
 .address-list-item {
   margin-right: 40px;
