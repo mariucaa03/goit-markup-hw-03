@@ -106,7 +106,6 @@ body {
 }
 
 .logo {
-  display: inline-block;
   font-family: var(--logo-font-family);
   font-size: 18px;
   font-weight: 800;
@@ -312,6 +311,10 @@ body {
 .footer {
   background: var(--dark-color);
   padding: 100px 0;
+}
+
+.footer-link {
+  display: inline-block;
 }
 
 .footer-mision {
