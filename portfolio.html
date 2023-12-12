@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>WebStudio</title>
-
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
@@ -12,44 +12,45 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Document</title>
   </head>
   <body>
-    <header class="navbar-and-address">
-      <div class="container header-container">
-        <!-- Nav section -->
-        <nav class="container">
-          <a class="logo logo-web link" href="./index.html"
-            >Web<span class="logo logo-studio-dark">Studio</span>
-          </a>
-          <ul class="nav-list">
-            <li class="nav-list-item list-item">
-              <a class="link link-nav" href="./index.html">Studio</a>
+    <header class="header">
+      <div class="container container-header">
+        <nav class="logo-nav">
+          <a href="./index.html" class="logo-link"
+            >Web<span class="logo-part">Studio</span></a
+          >
+
+          <ul class="list">
+            <li>
+              <a class="page-description-link" href="./index.html">Studio</a>
             </li>
-            <li class="nav-list-item list-item">
-              <a class="link link-nav" href="./portfolio.html">Portfolio</a>
+            <li>
+              <a class="page-description-link" href="./portfolio.html"
+                >Portfolio</a
+              >
             </li>
-            <li class="nav-list-item list-item">
-              <a class="link link-nav" href="">Contacts</a>
-            </li>
+            <li><a class="page-description-link" href="">Contacts</a></li>
           </ul>
         </nav>
 
-        <address class="address">
-          <ul class="address-list">
-            <li class="address-list-item list-item">
-              <a class="address-list" href="mailto:info@devstudio.com"
+        <address class="contact">
+          <ul class="list">
+            <li>
+              <a
+                href="mailto:info@devstudio.com"
+                class="address-description link"
                 >info@devstudio.com</a
               >
             </li>
-            <li class="address-list-item list-item">
-              <a class="address-list" href="tel:+110001111111"
+            <li>
+              <a href="tel:+110001111111" class="address-description link"
                 >+11 (000) 111-11-11</a
               >
             </li>
@@ -58,161 +59,157 @@
       </div>
     </header>
     <main>
-      <section class="main-container">
+      <section class="projects">
         <div class="container">
-          <h1 class="visually-hidden">Portfolio</h1>
-          <!-- Filters section -->
-
-          <ul class="filters-list">
-            <li class="filter-item">
-              <button class="portfolio-button button" type="button">All</button>
+          <h1 class="visually-hidden">.</h1>
+          <ul class="filter-list list">
+            <li><button class="filter layout" type="button">All</button></li>
+            <li>
+              <button class="filter layout" type="button">Web Site</button>
             </li>
-            <li class="filter-item">
-              <button class="portfolio-button button" type="button">
-                Web Site
-              </button>
-            </li>
-            <li class="filter-item">
-              <button class="portfolio-button button" type="button">App</button>
-            </li>
-            <li class="filter-item">
-              <button class="portfolio-button button" type="button">
-                Design
-              </button>
-            </li>
-            <li class="filter-item">
-              <button class="portfolio-button button" type="button">
-                Marketing
-              </button>
+            <li><button class="filter layout" type="button">App</button></li>
+            <li><button class="filter layout" type="button">Design</button></li>
+            <li>
+              <button class="filter layout" type="button">Marketing</button>
             </li>
           </ul>
 
-          <!-- Producs section -->
+          <ul class="projects-list">
+            <li class="filter-photos-list">
+              <a class="link">
+                <img
+                  class="images"
+                  src="./images/bankapp.jpg"
+                  alt="banking app interface concept"
+                  width="360"
+                  height="300"
+                />
+                <div class="service-box">
+                  <h2 class="project-title">Banking App Interface Concept</h2>
+                  <p class="project-paragraph">App</p>
+                </div>
+              </a>
+            </li>
 
-          <ul class="portfolio-cards">
-            <li class="portfolio-card list-item">
-              <a class="link-card" href="">
+            <li class="filter-photos-list">
+              <a href="" class="link">
                 <img
-                  src="./images/banking-app.jpg"
-                  alt="Banking App Interface"
+                  class="images"
+                  src="./images/cashlesspayment.jpg"
+                  alt="qr code on iphone screen"
                   width="360"
                   height="300"
                 />
-                <div class="container-portfolio">
-                  <h2 class="card-item-name">Banking App Interface Concept</h2>
-                  <p class="card-item-description">App</p>
+                <div class="service-box">
+                  <h2 class="project-title">Cashless Payment</h2>
+                  <p class="project-paragraph">Marketing</p>
                 </div>
               </a>
             </li>
-            <li class="portfolio-card list-item">
-              <a class="link-card" href="">
+
+            <li class="filter-photos-list">
+              <a href="" class="link">
                 <img
-                  src="./images/cashless-payment.jpg"
-                  alt="Cashless Payment"
+                  class="images"
+                  src="./images/meditationapp.jpg"
+                  alt="laptop and phone"
                   width="360"
                   height="300"
                 />
-                <div class="container-portfolio">
-                  <h2 class="card-item-name">Cashless Payment</h2>
-                  <p class="card-item-description">Marketing</p>
+                <div class="service-box">
+                  <h2 class="project-title">Meditation App</h2>
+                  <p class="project-paragraph">App</p>
                 </div>
               </a>
             </li>
-            <li class="portfolio-card list-item">
-              <a class="link-card" href="">
+            <li class="filter-photos-list">
+              <a href="" class="link">
                 <img
-                  src="./images/meditation-app.jpg"
-                  alt="Meditation App"
+                  class="images"
+                  src="./images/taxiservice.jpg"
+                  alt="steering wheel"
                   width="360"
                   height="300"
                 />
-                <div class="container-portfolio">
-                  <h2 class="card-item-name">Meditation App</h2>
-                  <p class="card-item-description">App</p>
+                <div class="service-box">
+                  <h2 class="project-title">Taxi Service</h2>
+                  <p class="project-paragraph">Marketing</p>
                 </div>
               </a>
             </li>
-            <li class="portfolio-card list-item">
-              <a class="link-card" href="">
+
+            <li class="filter-photos-list">
+              <a href="" class="link">
                 <img
-                  src="./images/taxi-service.jpg"
-                  alt="Taxi Service"
+                  class="images"
+                  src="./images/screenillustrations.jpg"
+                  alt="phones with moon backgrounds"
                   width="360"
                   height="300"
                 />
-                <div class="container-portfolio">
-                  <h2 class="card-item-name">Taxi Service</h2>
-                  <p class="card-item-description">Marketing</p>
+                <div class="service-box">
+                  <h2 class="project-title">Screen Illustrations</h2>
+                  <p class="project-paragraph">Design</p>
                 </div>
               </a>
             </li>
-            <li class="portfolio-card list-item">
-              <a class="link-card" href="">
+            <li class="filter-photos-list">
+              <a href="" class="link">
                 <img
-                  src="./images/screen-illustrations.jpg"
-                  alt="Screen Illustrations"
+                  class="images"
+                  src="./images/onlinecourses.jpg"
+                  alt="smiling woman wearing sunglasses"
                   width="360"
                   height="300"
                 />
-                <div class="container-portfolio">
-                  <h2 class="card-item-name">Screen Illustrations</h2>
-                  <p class="card-item-description">Design</p>
+                <div class="service-box">
+                  <h2 class="project-title">Online Courses</h2>
+                  <p class="project-paragraph">Marketing</p>
                 </div>
               </a>
             </li>
-            <li class="portfolio-card list-item">
-              <a class="link-card" href="">
+            <li class="filter-photos-list">
+              <a href="" class="link">
                 <img
-                  src="./images/online-courses.jpg"
-                  alt="Online Courses"
+                  class="images"
+                  src="./images/instastories.jpg"
+                  alt="instagram stories"
                   width="360"
                   height="300"
                 />
-                <div class="container-portfolio">
-                  <h2 class="card-item-name">Online Courses</h2>
-                  <p class="card-item-description">Marketing</p>
+                <div class="service-box">
+                  <h2 class="project-title">Instagram Stories Concept</h2>
+                  <p class="project-paragraph">Design</p>
                 </div>
               </a>
             </li>
-            <li class="portfolio-card list-item">
-              <a class="link-card" href="">
+            <li class="filter-photos-list">
+              <a href="" class="link">
                 <img
-                  src="./images/instagram-stories-concept.jpg"
-                  alt="Instagram Stories Concept"
+                  class="images"
+                  src="./images/organicfood.jpg"
+                  alt="woman carrying a bag of vegetable"
                   width="360"
                   height="300"
                 />
-                <div class="container-portfolio">
-                  <h2 class="card-item-name">Instagram Stories Concept</h2>
-                  <p class="card-item-description">Design</p>
+                <div class="service-box">
+                  <h2 class="project-title">Organic Food</h2>
+                  <p class="project-paragraph">Web Site</p>
                 </div>
               </a>
             </li>
-            <li class="portfolio-card list-item">
-              <a class="link-card" href="">
+            <li class="filter-photos-list">
+              <a href="" class="link">
                 <img
-                  src="./images/organic-food.jpg"
-                  alt="Organic Food"
+                  class="images"
+                  src="./images/freshcoffee.jpg"
+                  alt="coffe art"
                   width="360"
                   height="300"
                 />
-                <div class="container-portfolio">
-                  <h2 class="card-item-name">Organic Food</h2>
-                  <p class="card-item-description">Web Site</p>
-                </div>
-              </a>
-            </li>
-            <li class="portfolio-card list-item">
-              <a class="link-card" href="">
-                <img
-                  src="./images/fresh-coffee.jpg"
-                  alt="Fresh Coffee"
-                  width="360"
-                  height="300"
-                />
-                <div class="container-portfolio">
-                  <h2 class="card-item-name">Fresh Coffee</h2>
-                  <p class="card-item-description">Web Site</p>
+                <div class="service-box">
+                  <h2 class="project-title">Fresh Coffee</h2>
+                  <p class="project-paragraph">Web Site</p>
                 </div>
               </a>
             </li>
@@ -220,16 +217,15 @@
         </div>
       </section>
     </main>
-    <!-- Footer section -->
-
     <footer class="footer">
       <div class="container">
-        <a href="./index.html" class="logo logo-web"
-          >Web<span class="logo logo-studio-light">Studio</span>
-        </a>
-        <p class="footer-mision">
-          Increase the flow of customers and sales for your business with
-          digital marketing & growth solutions.
+        <a href="./index.html" class="logo-part-foot"
+          >WEB<span class="logo-foot">Studio</span></a
+        >
+        <p class="footer-paragraph">
+          Increase the flow of customers and <br />sales for your business with
+          digital <br />
+          marketing & growth solutions.
         </p>
       </div>
     </footer>
