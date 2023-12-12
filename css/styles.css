@@ -313,9 +313,9 @@ body {
   padding: 100px 0;
 }
 
-.footer-link {
+/* .footer-link {
   display: inline-block;
-}
+} */
 
 .footer-mision {
   color: var(--cloud-color);
@@ -328,7 +328,6 @@ body {
 }
 
 .logo {
-  /* display: inline-block; */
   font-family: var(--logo-font-family);
   font-size: 18px;
   font-weight: 800;
@@ -336,7 +335,7 @@ body {
   letter-spacing: 0.54px;
   text-transform: uppercase;
   margin-right: 76px;
-
+  display: inline-block;
   margin-bottom: 16px;
 }
 .logo-web {
