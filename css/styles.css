@@ -328,7 +328,7 @@ body {
 }
 
 .logo {
-  display: inline-block;
+  /* display: inline-block; */
   font-family: var(--logo-font-family);
   font-size: 18px;
   font-weight: 800;
