@@ -385,7 +385,8 @@ body {
 }
 
 .portfolio-card {
-  width: calc((100%-48px) / 3);
+  width: 100%;
+  min-width: 360px;
 }
 
 .portfolio-card:nth-child(n + 3) {
