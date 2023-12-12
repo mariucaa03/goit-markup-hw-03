@@ -313,6 +313,7 @@ body {
 }
 
 .footer {
+  display: inline-block;
   background: var(--dark-color);
   padding: 100px 0;
 }
